@@ -21,7 +21,8 @@ module Calculator
   AMOUNT_FMT = /\A\d+(\.\d{1,2})?\z/
 
   class Amount
-    def initialize(raw_amount)
+    def initialize(raw_amount) 
+      
       @amount = raw_amount.to_d
     end
 
