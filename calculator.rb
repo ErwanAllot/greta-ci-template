@@ -25,7 +25,7 @@ module Calculator
       @amount = raw_amount.to_d
     end
 
-    def to_s
+    def  to_s
       @amount.to_s("F")
     end
   end
